@@ -12,5 +12,14 @@
 */
 
 Route::get('/', function () {
+    /*Route::post für post methode*/
     return view('home');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
 });
